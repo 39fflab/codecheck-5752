@@ -4,7 +4,8 @@ function hello(name) {
 * nameが"codecheck"の場合には、"Hello codecheck!"が返されます。
 */
   //ここにHelloworldを実装します。
+  if(name === "codecheck"){
+  	return "Hello codecheck!";
+  }
   return "Hello World!";
 }
-
-module.exports = hello;
